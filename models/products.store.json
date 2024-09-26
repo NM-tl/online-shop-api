@@ -1,0 +1,20 @@
+[
+  {
+    "id": "8bbb8f19-e7cc-49b9-be28-2f44e59ec60f",
+    "name": "Product Name",
+    "description": "Product Description",
+    "price": "100.00",
+    "images": [],
+    "videos": [],
+    "previews": []
+  },
+  {
+    "id": "91927286-ee7a-45ab-9628-16cd93901eed",
+    "name": "Product Name2",
+    "description": "Product Description2",
+    "price": "200.00",
+    "images": [],
+    "videos": [],
+    "previews": []
+  }
+]
