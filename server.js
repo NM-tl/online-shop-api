@@ -9,6 +9,12 @@ app.use(express.json());
 app.use('/api', authRoutes);
 app.use('/api', productRoutes);
 app.use('/api', cartRoutes);
+app.use((err, req, res, next) => {
+  res.status(err.statusCode || 500).json({
+    status: err.status || 'error',
+    message: err.message || 'Internal server error',
+  });
+});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
