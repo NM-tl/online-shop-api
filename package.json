@@ -1,0 +1,17 @@
+{
+  "name": "online-shop-api",
+  "version": "1.0.0",
+  "description": "REST API for an online shop built with Express.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
